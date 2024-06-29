@@ -1,0 +1,32 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 0px 0px 15px;
+}
+.box-inner {
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0px  15px 15px 0px;
+  padding: 20px;
+  padding-right: 80px;
+}
+.gabrielle{
+    font-size: 30px;
+}
