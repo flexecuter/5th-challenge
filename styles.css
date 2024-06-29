@@ -8,13 +8,13 @@ body {
   min-height: 100vh;
 }
 .img {
-  width: 50%;
+  width: 30%;
   height: auto;
   border-radius: 15px 0px 0px 15px;
 }
 .box-inner {
   border-radius: 15px;
-  width: 600px;
+  width: 800px;
   display: flex;
   justify-content: center;
 }
@@ -22,6 +22,7 @@ body {
   background-color: white;
   border-radius: 0px 15px 15px 0px;
   padding: 20px;
+  
   
 }
 @font-face {
@@ -36,15 +37,19 @@ body {
   font-family: font-2;
   font-size: 11px;
   font-weight: light;
+  margin-left: 10px;
 }
 .gabrielle {
   font-size: 30px;
   font-family: font-1;
   font-weight: 900;
+  margin-left: 10px;
 }
 .a-floral {
   font-family: font-2;
   font-size: 12px;
   font-weight: light;
   margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
