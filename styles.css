@@ -22,12 +22,10 @@ body {
   background-color: white;
   border-radius: 0px 15px 15px 0px;
   padding: 20px;
-  
-  
 }
 @font-face {
   font-family: font-1;
-  src: url(Fraunces-VariableFont_SOFT\WONK\opsz\wght.ttf);
+  src: url(Fraunces-VariableFont_SOFTWONKopszwght.ttf);
 }
 @font-face {
   font-family: font-2;
@@ -40,9 +38,9 @@ body {
   margin-left: 10px;
 }
 .gabrielle {
-  font-size: 30px;
+  font-size: 25px;
   font-family: font-1;
-  font-weight: 900;
+  font-weight: bolder;
   margin-left: 10px;
 }
 .a-floral {
@@ -53,3 +51,32 @@ body {
   margin-right: 20px;
   margin-left: 10px;
 }
+.price {
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: font-1;
+}
+.old-price {
+  color: grey;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: line-through;
+  margin-left: 15px;
+  font-family: font-1;
+  position: absolute;
+  margin-top: 8px;
+}
+.add-cart {
+  background-color: hsl(155, 100%, 13%);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  color: aliceblue;
+  font-size: 12px;
+  padding: 12px 60px;
+  cursor:pointer;
+}
+
