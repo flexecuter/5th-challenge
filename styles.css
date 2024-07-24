@@ -87,4 +87,11 @@ body {
   padding: 12px 60px;
   cursor:pointer;
 }
-
+@media (min-width: 768px) {
+  .box-inner {
+    flex-direction: row;
+  }
+  .text {
+    text-align: left;
+  }
+}
